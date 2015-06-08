@@ -12,6 +12,7 @@ namespace Chapter1
 			{
 				return 42;
 			});
+			// forces the application to wait for task results
 			Console.WriteLine(t.Result); // Displays 42
 		}
 	}
